@@ -1,0 +1,117 @@
+header{
+    background-color: black;
+    padding: 11px 10%;
+}
+
+header nav {
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: #44d74f;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0px;
+}
+
+header nav .navbar-brand {
+    padding: 15px 0;
+}
+
+header nav ul li{
+    margin-left: 15px;
+    list-style-type: none;
+}
+
+header nav ul li > a {
+    padding: 9px 28px;
+    color: #44d74f;
+    text-decoration: none;
+    border-radius: 13px 0;
+    border: 2px solid #44d74f;
+    font-weight: 900;
+    transition: .3s;
+    font-size: 15px;
+}
+
+header nav ul li > a.active {
+    background-color: #44d74f;
+    color: #000;
+}
+
+header nav ul li > a:hover {
+    background-color: #44d74f;
+    color: #000;
+}
+
+
+header nav ul .dropbtn {
+    background-color: #000;
+    padding: 9px 28px;
+    color: #44d74f;
+    text-decoration: none;
+    border-radius: 13px 0;
+    border: 2px solid #44d74f;
+    font-weight: 900;
+    transition: .3s;
+    font-size: 15px;
+}
+  
+
+header nav ul .dropdown {
+    position: relative;
+    display: inline-block;
+    transition: .3s;
+}
+
+
+header nav ul .dropdown-content {
+    display: none;
+    position: absolute;
+    
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+header nav ul .dropdown-content a {
+    display: block;
+    background-color: #000;
+    padding: 9px 28px;
+    color: #44d74f;
+    text-decoration: none;
+    border-radius: 13px 0;
+    border: 2px solid #44d74f;
+    font-weight: 900;
+    transition: .3s;
+    font-size: 15px;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+
+header nav ul .dropdown-content a:hover {
+    background-color: #44d74f; color: #000;
+}
+
+header nav ul .dropdown:hover .dropdown-content {
+    display: block;
+    right: 0; 
+    top: 30px;
+}
+
+header nav ul .dropdown:hover .dropbtn {
+    background-color: #44d74f;
+     color: #000;
+}
